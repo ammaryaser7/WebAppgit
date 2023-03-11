@@ -18,6 +18,11 @@ namespace WebAppgit.Controllers
             return View();
         }
 
+        public IActionResult Filter()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
